@@ -5,11 +5,11 @@ import bottle
 def index():
     return bottle.template('index')
 
-@bottle.route('/page1')
+@bottle.route('/food')
 def food():
     return bottle.template('food')
 
-@bottle.route('/page2')
+@bottle.route('/excersize')
 def excersize():
     return bottle.template('excersize')
 
