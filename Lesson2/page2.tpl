@@ -2,9 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>\\
-%default = "URL Variables"
-{{title if defined('title') else default}}</title>
+<title>Hello World In A Bottle</title>
 <style type="text/css">
 body {
     margin: 25px;
@@ -12,30 +10,27 @@ body {
 }
 main {
     border: 1px dotted #555;
-    padding: 15px;
-}
-p {
-    padding: 25px;
-}
-p.return {
-    margin-bottom: -40px;
-    text-align: center;
 }
 h1 {
-    text-align: center;
-}
-blockquote {
+    padding: 15px;
     text-align: center;
     font-size: 3em;
-    font-style: italic;
+    font-weight: bold;
+}
+p {
+    text-align: center;
+    font-size: 1.5em;
 }
 a, a:visited {
     color: #663;
     text-decoration: none;
 }
 footer {
-    margin-top: 25px;
+    margin-top: 5px;
     text-align: center;
+}
+body {
+  background-color: #A8B6E7;
 }
 </style>
 <script>
@@ -51,11 +46,12 @@ window.onload = add_validation_links;
 </script>
 </head>
 <body>
-
 <main>
-%include
-</main>
 
+
+<p>This is page 2</p>
+</main>
+<h1>2</h1>
 <footer>
 <a id="vLink1">
 <strong> HTML </strong> Valid! </a> | 

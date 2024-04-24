@@ -29,6 +29,9 @@ footer {
     margin-top: 5px;
     text-align: center;
 }
+body {
+  background-color: #E7B3A8;
+}
 </style>
 <script>
 function add_validation_links() {
@@ -46,8 +49,7 @@ window.onload = add_validation_links;
 <main>
 
 
-<p>Add <code>/[message]</code> (example: <code>/New York</code>) to change
-the message.</p>
+<p>This is the index</p>
 </main>
 <footer>
 <a id="vLink1">

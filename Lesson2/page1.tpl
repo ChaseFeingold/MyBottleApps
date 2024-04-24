@@ -29,6 +29,9 @@ footer {
     margin-top: 5px;
     text-align: center;
 }
+body {
+  background-color: #A8E7C0;
+}
 </style>
 <script>
 function add_validation_links() {
@@ -46,10 +49,9 @@ window.onload = add_validation_links;
 <main>
 
 
-<p>Add <code>/[message]</code> (example: <code>/New York</code>) to change
-the message.</p>
+<p>This is page 1</p>
 </main>
-<h1>{{message}}</h1>
+<h1>1</h1>
 <footer>
 <a id="vLink1">
 <strong> HTML </strong> Valid! </a> | 
