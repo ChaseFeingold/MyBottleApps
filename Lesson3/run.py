@@ -3,11 +3,14 @@ import bottle
 
 @bottle.route('/')
 def index():
-     return bottle.template('index')
+    return bottle.template('index')
 
-@bottle.route('/<name>')
-def message(name):
-    the_message = f'Hello {name}!'
-    return bottle.template('message_template', message=the_message)
+@bottle.route('/page1')
+def food():
+    return bottle.template('food')
+
+@bottle.route('/page2')
+def excersize():
+    return bottle.template('excersize')
 
 bottle.run(host='0.0.0.0', port=8090)
