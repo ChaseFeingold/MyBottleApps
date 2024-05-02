@@ -1,4 +1,5 @@
-  <!DOCTYPE html>
+  
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -33,6 +34,7 @@ body {
   background-color: #A8E7C0;
 }
 </style>
+
 <script>
 function add_validation_links() {
   var loc = window.location.href;
@@ -56,7 +58,7 @@ window.onload = add_validation_links;
 
 <footer>
 <a id="vLink1">
-<strong> HTML </strong> Valid! </a> | 
+<strong> HTML </strong> Valid! </a> 
 <a id="vLink2">
 <strong> CSS </strong> Valid! </a>
 </footer>

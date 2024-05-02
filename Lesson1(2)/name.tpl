@@ -55,7 +55,7 @@ window.onload = add_validation_links;
 
 <footer>
 <a id="vLink1">
-<strong> HTML </strong> Valid! </a> | 
+<strong> HTML </strong> Valid! </a> 
 <a id="vLink2">
 <strong> CSS </strong> Valid! </a>
 </footer>
