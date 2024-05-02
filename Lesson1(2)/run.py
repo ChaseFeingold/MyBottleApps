@@ -10,7 +10,7 @@ def name(name):
     return bottle.template('name', name=name)
 
 @bottle.route('/<name>/<number>')
-def namenumber():
+def number():
     return bottle.template('number', number=number)
  
 
