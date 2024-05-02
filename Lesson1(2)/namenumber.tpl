@@ -48,7 +48,7 @@ window.onload = add_validation_links;
 <body>
 <main>
 
- <p> The name {{namenumber}} was passed to me!</p>
+ <p> Received name {{name}} and number {{number}}!</p>
 
 
 
