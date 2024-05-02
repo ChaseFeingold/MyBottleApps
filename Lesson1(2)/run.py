@@ -7,7 +7,7 @@ def index():
 
 @bottle.route('/<name>')
 def name(name):
-    return bottle.template('name')
+    return bottle.template('name', name=name)
 
 @bottle.route('/<name>/<number>')
 def namenumber():

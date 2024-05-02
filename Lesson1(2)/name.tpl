@@ -48,9 +48,7 @@ window.onload = add_validation_links;
 </head>
 <body>
 <main>
-
-
- the_message = f'The name {name} was passed to me!'
+<p>The name, {name}, was passed to me!</p>
 </main>
 
 <footer>
