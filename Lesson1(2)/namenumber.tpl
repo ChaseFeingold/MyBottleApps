@@ -30,9 +30,7 @@ footer {
     margin-top: 5px;
     text-align: center;
 }
-body {
-  background-color: #A8E7C0;
-}
+
 </style>
 
 <script>
