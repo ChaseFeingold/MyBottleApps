@@ -3,8 +3,17 @@ import bottle
 
 
 @bottle.route('/')
+def index():
+    return bottle.template('index')
+
 @bottle.route('/<name>')
+def name():
+    return bottle.template('name')
+
 @bottle.route('/<name>/<number>')
+def namenumber():
+    return bottle.template('namenumber')
+
 def different_index(name='', number=''):
     if not name and not number:
         return bottle.template('welcome')
