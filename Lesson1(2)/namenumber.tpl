@@ -50,7 +50,7 @@ window.onload = add_validation_links;
 <body>
 <main>
 
- the_message = f'The name {name} was passed to me!'
+ <p> The name {{namenumber}} was passed to me!</p>
 
 
 

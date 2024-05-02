@@ -11,7 +11,7 @@ def name(name):
 
 @bottle.route('/<name>/<number>')
 def namenumber():
-    return bottle.template('namenumber')
+    return bottle.template('namenumber', namenumber=namenumber)
 
 
 
