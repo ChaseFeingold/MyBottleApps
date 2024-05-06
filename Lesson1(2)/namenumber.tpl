@@ -48,7 +48,7 @@ window.onload = add_validation_links;
 <body>
 <main>
 
- <p> Received name {{name}} and number {{number}}!</p>
+ <p> Received name {{name1}} and number {{number}}!</p>
 
 
 
