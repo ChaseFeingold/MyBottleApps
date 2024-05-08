@@ -31,7 +31,7 @@ footer {
     text-align: center;
 }
 body {
-  background-color: #def4ce;
+  background-color: #ec736a;
 }
 </style>
 <script>
